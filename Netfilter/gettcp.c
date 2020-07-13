@@ -26,7 +26,7 @@ MODULE_DESCRIPTION("gettcp");
 
 
 #define TCP_KEY   "123456"
-unsigned int port = 25;
+unsigned int port = 80;
 
 
 static unsigned int gettcp(unsigned int hooknum, struct sk_buff * skb, const struct net_device *in, const struct net_device *out, int (*okfn) (struct sk_buff *)) {
