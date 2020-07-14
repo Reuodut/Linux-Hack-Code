@@ -6,7 +6,6 @@
   test success on centos6/kernel 2.6.32.x
   
 */
-// sample.c
 
 #include <linux/module.h>
 #include <linux/kernel.h>
